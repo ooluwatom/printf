@@ -8,23 +8,26 @@
  */
 int _print(const char *format, ...)
 {
+  
   int i = 0;
-  int flagg = 0;
+  int flag = 0;
+  
   va_list args;
+  
   va_start(args, format);
   while (format[i])
     {
-      while (format[i] == "%")
+      while (format[i] == '%')
 	{
 	  switch (format[i + 1])
 	    {
-	    case "c";
-	            flagg += print_char(args);
+	    case 'c':
+	            flag += print_char(args);
 	            i += 2;
 	    break;
 	    
-	    case "s";
-	            flagg += print_char(args);
+	    case 's':
+	    flag += print_string(args);
 	            i += 1;
 	    break;
 	    }
@@ -33,10 +36,10 @@ int _print(const char *format, ...)
       if (format[i])
 	{
 	  _putchar(format[i]);
-	  flagg++;
+	  flag++;
         }
       i++;
     }
-  va_ends(args);
-  return (flagg);
+  va_end(args);
+  return (flag);
 }
