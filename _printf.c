@@ -8,12 +8,12 @@
  */
 int _printf(const char *format, ...)
 {
-  
+
   int i = 0;
   int flag = 0;
-  
+
   va_list args;
-  
+
   va_start(args, format);
   while (format[i])
     {
@@ -25,7 +25,7 @@ int _printf(const char *format, ...)
 	            flag += print_char(args);
 	            i += 2;
 	    break;
-	    
+
 	    case 's':
 	    flag += print_string(args);
 	            i += 1;
