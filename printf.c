@@ -19,8 +19,13 @@ int _print(const char *format, ...)
 	  switch (format[i + 1])
 	    {
 	    case "c";
-	    flagg += print_char(args)
-	      i += 2;
+	            flagg += print_char(args);
+	            i += 2;
+	    break;
+	    
+	    case "s";
+	            flagg += print_char(args);
+	            i += 1;
 	    break;
 	    }
 	  i++;
@@ -28,7 +33,7 @@ int _print(const char *format, ...)
       if (format[i])
 	{
 	  _putchar(format[i]);
-	  flagg++
+	  flagg++;
         }
       i++;
     }
