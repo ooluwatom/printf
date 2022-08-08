@@ -34,7 +34,7 @@ c : converts input into a character
 s : converts input into a string
 % : is format identifier
 
-<a href ="1. Education is when you read the fine print. Experience is what you get if you don't">1. Education is when you read the fine print. Experience is what you get if you don't
+<a href ="1. Education is when you read the fine print. Experience is what you get if you don't">1. Education is when you read the fine print. Experience is what you get if you don't</a>
 <li>Handle the following conversion specifiers:</li>
 d : converts input into a base 10 integer
 i : converts input into an integer
