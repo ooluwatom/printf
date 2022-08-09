@@ -5,9 +5,14 @@
  * @c: The character to print
  *
  * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * On error, -1 is returned, and error is there returned
  */
+
 int _putchar(char c)
 {
-	return (write(1, &c, 1));
+<<<<<<< HEAD
+return (write(1, &c, 1));
+=======
+    return (write(1, &c, 1));
+>>>>>>> 19b99087a4bbab7dd24904725b2ee84f711e0240
 }
