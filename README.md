@@ -36,6 +36,6 @@ s : converts input into a string
 
 <a href ="1. Education is when you read the fine print. Experience is what you get if you don't">1. Education is when you read the fine print. Experience is what you get if you don't</a>
 <li>Handle the following conversion specifiers:</li>
-d : converts input into a base 10 integer
+d : converts input into a base 10 integer<br/>
 i : converts input into an integer
 </ul>
