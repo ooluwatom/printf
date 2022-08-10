@@ -34,10 +34,12 @@ int _printf(const char *format, ...);
 <li>_printf("%R\n", "Hello") encodes and prints string using rot13</li>
 <li>_printf("%c\n", 'H') prints H</li>
 </ul>
+
 # Project Tasks
 
-0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
+# 0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
 Write a function that produces output according to a format.
+
 https://github.com/ooluwatom/printf/blob/main/_printf.c
 <ul>
 <li>Write a function that produces output according to format.</li>
@@ -56,10 +58,14 @@ b: the unsigned int argument is converted to binary
 
 # 3. What one has not experienced, one will never understand in print
 <li>Handle the following conversion specifiers:</li>
+
 u : converts the input into an unsigned integer
+
 o : converts the input into an octal number
+
 x : converts the input into a hexadecimal number
-X : converts the input into a hexadecimal number with capital letters
+
+X : converts the input into a hexadecimal number with capital letters<br/>
 
 # 4. Nothing in fine print is ever good news
 <li>Use a local buffer of 1024 chars in order to call write as little as possible.</li>
@@ -75,12 +81,17 @@ p : int input is converted to a pointer address
 
 # 7. The big print gives and the small print takes away
 <li>Handle the following flag characters for non-m conversion specifiers:</li>
-+ : adds a + in front of signed positive numbers and a - in front of signed negative numbers
++ : adds a + in front of signed positive numbers and
+a - in front of signed negative numbers<br/>
+
 space : same as +, but adds a space (is overwritten by +)
+
 # : adds a 0 in front of octal conversions that don't begin with one, and a 0x or 0X for x or X conversions
-# 8. Sarcasm if lost in print
+
+# 8. Sarcasm is  lost in print
 <li>Handle the following length modifiers for non-custom conversion specifiers:</li>
 l : converts d, i, u, o, x, X conversions in short signed or unsigned ints
+
 h : converts d, i, u, o, x, X conversions in long signed or unsigned ints
 
 # 9. Print some money and give it to us for the rain forests
@@ -105,6 +116,8 @@ R: prints the rot13'ed string
 
 # [15.*]
 <li>All the above options work well together.</li>
+
+# Authors
 
 <li>Oluwatomi Olagunju - ooluwatom@gmail.com</li>
 <li>Bridget Idam - ibridget95@gmail.com</li>
