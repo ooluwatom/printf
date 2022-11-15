@@ -1,4 +1,4 @@
-# Processes and signals
+# Processes and signals project
 
 # Resources
 <ul>
