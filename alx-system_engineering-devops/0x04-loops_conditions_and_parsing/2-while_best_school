@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # Bash script that displays 'Best School' in std 10 times using while loop
 
-c=1
+index=0
 
-while [$c le 10]
+while [ $index -lt 10 ]
 do
-    echo "Best School"
-    ((c++))
+  echo "Best School"
+  ((index++))
 done
