@@ -6,7 +6,7 @@ This project is a collection of web infrastructure designs that could be impleme
 # Designs Presented
 
 <ul>
-<li>imple web stack.</li>
+<li>Simple web stack - <a href="github.com/Brigg-commit/0x09-web_infrastructure_design/master/0-simple_web_stack.md">details</a>s</li>
 
 <li>
 Distributed web infrastructure.
