@@ -17,7 +17,7 @@ Secured and monitored web infrastrucure - <a href ="github.com/Brigg-commit/0x09
 </li>
 
 <li>
-Scaled up web infrastructure
+Scaled up web infrastructure - <a href ="github.com/Brigg-commit/0x09-web_infrastructure_design/3-scale_up.md">details</a>
 </li>
 
 </u>
