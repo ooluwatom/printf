@@ -13,7 +13,7 @@ Distributed web infrastructure - <a href="github.com/Brigg-commit/0x09-web_infra
 </li>
 
 <li>
-Secured and monitored web infrastrucure.
+Secured and monitored web infrastrucure - <a href ="github.com/Brigg-commit/0x09-web_infrastructure_design/2-secured_and_monitored_web_infrastructure.md">details</a>
 </li>
 
 <li>
